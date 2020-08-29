@@ -12,7 +12,7 @@ import model
 
 
 parser = argparse.ArgumentParser(description='PTB RNN/LSTM Language Model: Main Function')
-parser.add_argument('--data', type=str, default='./data/ptb',
+parser.add_argument('--data', type=str, default='./wikitext-2',
                     help='location of the data corpus')
 parser.add_argument('--model', type=str, default='LSTM',
                     help='type of recurrent net (RNN_TANH, RNN_RELU, LSTM, GRU)')
